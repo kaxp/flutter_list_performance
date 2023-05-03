@@ -1,16 +1,7 @@
 # flutter_performance
 
-A new Flutter project.
+A Flutter project for testing the general performance of the ListView widget and the SingleChildScrollView widget in flutter.
 
-## Getting Started
+All the test are performed in the Profile Mode.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [More details about the project](https://fluttering-dress-002.notion.site/ListView-vs-SingleChildScrollView-in-Flutter-9cb96904fffa4d9f89fb176eba212eae)
