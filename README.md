@@ -4,4 +4,4 @@ A Flutter project for testing the general performance of the ListView widget and
 
 All the test are performed in the Profile Mode.
 
-- [More details about the project](https://fluttering-dress-002.notion.site/ListView-vs-SingleChildScrollView-in-Flutter-9cb96904fffa4d9f89fb176eba212eae)
+- [Detailed result analysis](https://fluttering-dress-002.notion.site/ListView-vs-SingleChildScrollView-in-Flutter-9cb96904fffa4d9f89fb176eba212eae)
