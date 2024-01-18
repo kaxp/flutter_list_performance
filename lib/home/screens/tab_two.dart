@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_performance/movies.dart';
+import 'package:flutter_performance/home/model/movies.dart';
 
-import 'list_tile.dart';
+import 'widgets/list_tile.dart';
 
 class TabTwo extends StatelessWidget {
   const TabTwo({required this.moviesList});
