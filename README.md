@@ -1,7 +1,61 @@
-# flutter_performance
+# ****Flutter Scrollable Widgets: A Comparative Overview****
 
-A Flutter project for testing the general performance of the ListView widget and the SingleChildScrollView widget in flutter.
+## Overview
 
-All the test are performed in the Profile Mode.
+In the realm of Flutter app development, choosing the right scrolling widget is pivotal for creating a seamless user experience. This design document provides an insightful overview and comparison between two commonly used widgets: **`ListView`**, **`SingleChildScrollView` and `ListView.builder`**.
 
-- [Detailed result analysis](https://fluttering-dress-002.notion.site/ListView-vs-SingleChildScrollView-in-Flutter-9cb96904fffa4d9f89fb176eba212eae)
+## Objective
+
+This document aims to guide Flutter developers in making informed decisions regarding the selection of scrolling widgets, specifically focusing on the use cases, advantages, and considerations associated with **ListView**, **SingleChildScrollView and ListView.builder**.
+
+**Widgets in Focus:**
+
+- **`ListView`:**
+    - **ListView** is a versatile widget for rendering a scrollable list of widgets.
+    - Well-suited for both short and long lists, offering built-in support for separators and varying item heights.
+    - Efficient for scenarios where the entire list can be generated upfront.
+- **`SingleChildScrollView`:**
+    - **SingleChildScrollView** provides a scrolling container for a single child, suitable for smaller sections of the UI.
+    - Ideal for simpler layouts where the entire content can fit within the viewport.
+    - No inherent support for item recycling, making it more suitable for a limited number of widgets.
+- **`ListView.builder`:**
+    - **ListView.builder** is specifically designed for efficient rendering of large datasets.
+    - Dynamically generates items as they are scrolled into view (lazy loading), reducing memory footprint.
+    - Excellent choice for scenarios with a vast or dynamic number of items.
+
+## Case Study
+
+In this case study, developers will overview how each of these widgets performs when used for displaying a large dataset, possibly mimicking an actual API response.
+
+1.  ListView.builder vs SingleChildScrollView (`Profile Mode`)
+
+    [![ListView.builder vs SingleChildScrollView](https://img.youtube.com/vi/AwGaOPhfImQ/0.jpg)](https://www.youtube.com/watch?v=AwGaOPhfImQ "ListView.builder vs SingleChildScrollView in profile mode")
+    > Correction in video at **0:25**, The title of the button should be ‘Go to ListView.builder’
+    
+    **Average frames per second achieved in Profile mode**:
+    
+    ListView.builder = 60 FPS average
+    
+    SingleChildScrollView = 31 FPS average
+
+    <br/>
+    
+3. SingleChildScrollView vs ListView vs ListView.builder (`Debug Mode`)
+
+   [![SingleChildScrollView vs ListView vs ListView.builder](https://img.youtube.com/vi/0ph_fFjGNI8/0.jpg)](https://www.youtube.com/watch?v=0ph_fFjGNI8 "SingleChildScrollView vs ListView vs ListView.builder")
+    
+    **Average frames per second achieved in Debug mode**:
+    
+    ListView.builder = ~60 FPS average
+    
+    ListView = ~40 FPS average
+    
+    SingleChildScrollView = ~30 FPS average
+    
+
+## **Conclusion:**
+
+In conclusion, the selection of a scrolling widget depends on the specific UI requirements. However, this document provides a holistic understanding of the strengths and considerations associated with **`ListView`**, **`SingleChildScrollView`**, and **`ListView.builder`**. By making an informed choice, developers can ensure an optimal scrolling experience aligned with their application's unique design and functionality.
+
+## Notion document
+Check the [Notion](https://fluttering-dress-002.notion.site/ListView-vs-SingleChildScrollView-in-Flutter-9cb96904fffa4d9f89fb176eba212eae) document
