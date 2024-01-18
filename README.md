@@ -29,7 +29,10 @@ In this case study, developers will overview how each of these widgets performs 
 
 1.  ListView.builder vs SingleChildScrollView (`Profile Mode`)
 
-    [![ListView.builder vs SingleChildScrollView](https://img.youtube.com/vi/AwGaOPhfImQ/0.jpg)](https://www.youtube.com/watch?v=AwGaOPhfImQ "ListView.builder vs SingleChildScrollView in profile mode")
+    <a href="https://www.youtube.com/watch?v=AwGaOPhfImQ">
+      <img src="https://github.com/kaxp/flutter_list_performance/blob/104e916d69a1384da1778c0d8edc993c349f923a/screenshots/profile_mode.png" alt="SingleChildScrollView vs ListView.builder in Profile Mode" width="600">
+    </a>
+
     > Correction in video at **0:25**, The title of the button should be ‘Go to ListView.builder’
     
     **Average frames per second achieved in Profile mode**:
@@ -42,7 +45,10 @@ In this case study, developers will overview how each of these widgets performs 
     
 3. SingleChildScrollView vs ListView vs ListView.builder (`Debug Mode`)
 
-   [![SingleChildScrollView vs ListView vs ListView.builder](https://img.youtube.com/vi/0ph_fFjGNI8/0.jpg)](https://www.youtube.com/watch?v=0ph_fFjGNI8 "SingleChildScrollView vs ListView vs ListView.builder")
+   <a href="https://www.youtube.com/watch?v=0ph_fFjGNI8" target="_blank">
+      <img src="https://github.com/kaxp/flutter_list_performance/blob/104e916d69a1384da1778c0d8edc993c349f923a/screenshots/debug_mode.png" alt="SingleChildScrollView vs     ListView vs ListView.builder in Debug Mode" width="600">
+    </a>
+
     
     **Average frames per second achieved in Debug mode**:
     
