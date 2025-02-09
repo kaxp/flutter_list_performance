@@ -2,7 +2,7 @@
 
 ## Overview
 
-In the realm of Flutter app development, choosing the right scrolling widget is pivotal for creating a seamless user experience. This design document provides an insightful overview and comparison between two commonly used widgets: **`ListView`**, **`SingleChildScrollView` and `ListView.builder`**.
+In the realm of Flutter app development, choosing the right scrolling widget is pivotal for creating a seamless user experience. This design document provides an insightful overview and comparison between these commonly used scroll widgets: **`ListView`**, **`SingleChildScrollView` and `ListView.builder`**.
 
 ## Objective
 
@@ -25,7 +25,7 @@ This document aims to guide Flutter developers in making informed decisions rega
 
 ## Case Study
 
-In this case study, developers will overview how each of these widgets performs when used for displaying a large dataset, possibly mimicking an actual API response.
+In this case study, we will overview how each of these widgets performs when used for displaying a large dataset, possibly mimicking an actual API response.
 
 1.  ListView.builder vs SingleChildScrollView (`Profile Mode`)
 
